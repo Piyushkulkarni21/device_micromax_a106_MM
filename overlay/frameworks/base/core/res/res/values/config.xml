@@ -86,7 +86,7 @@
     <bool name="config_sip_wifi_only">false</bool>
 
     <!-- Enable the electron beam -->
-    <bool name="config_animateScreenLights">false</bool>
+    <bool name="config_animateScreenLights">true</bool>
 
     <!-- National language single shift tables to enable for SMS encoding.
          Decoding is always enabled. 3GPP TS 23.038 states that this feature
