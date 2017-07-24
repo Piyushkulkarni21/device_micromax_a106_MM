@@ -20,7 +20,7 @@
 PRODUCT_RELEASE_NAME := a106
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full.mk)
+$(call inherit-product, vendor/mk/config/common_full.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/micromax/a106/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product-if-exists, vendor/micromax/a106/a106-vendor.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a106
-PRODUCT_NAME := lineage_a106
+PRODUCT_NAME := mk_a106
 PRODUCT_BRAND := micromax
 PRODUCT_MODEL := Unite 2
 PRODUCT_MANUFACTURER := micromax
