@@ -5,7 +5,7 @@
  patch -p1 < ../../device/micromax/a106/patches/system_core.patch
  cd ../..
  cd packages/apps/Settings
- patch -p1 < ../../device/Xiaomi/hm_note_1w/patches/author_info.patch
+ patch -p1 < ../../../device/Xiaomi/hm_note_1w/patches/author_info.patch
  cd ../../..
  cd system*/bt
  patch -p1 < ../../device/micromax/a106/patches/system_bt.patch
