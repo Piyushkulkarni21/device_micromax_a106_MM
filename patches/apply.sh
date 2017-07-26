@@ -3,11 +3,8 @@
  cd ../../../..
  cd system/core
  patch -p1 < ../../device/micromax/a106/patches/system_core.patch
- cd ../..
- cd packages/apps/Settings
- patch -p1 < ../../../device/micromax/a106/patches/author_info.patch
- cd ../../..
- cd system*/bt
+ cd ..
+ cd bt
  patch -p1 < ../../device/micromax/a106/patches/system_bt.patch
  cd ..
  cd netd
@@ -34,6 +31,4 @@
  cd external/wpa_supplicant_8
  patch -p1 < ../../device/micromax/a106/patches/wpa_supplicant_8.patch
  cd ../..
- clear
- clear scrollback
  echo Successfuly patched! Go ahead and start building!
