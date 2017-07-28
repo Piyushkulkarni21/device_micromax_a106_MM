@@ -28,7 +28,7 @@ $(call inherit-product-if-exists, vendor/micromax/a106/a106-vendor.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := a106
-PRODUCT_NAME := lineage_a106
+PRODUCT_NAME := bs_a106
 PRODUCT_BRAND := micromax
 PRODUCT_MODEL := Unite 2
 PRODUCT_MANUFACTURER := micromax
