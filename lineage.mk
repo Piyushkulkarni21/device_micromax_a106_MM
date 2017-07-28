@@ -20,7 +20,7 @@
 PRODUCT_RELEASE_NAME := a106
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full.mk)
+$(call inherit-product, vendor/beanstalk/config/common_full.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/micromax/a106/device.mk)
