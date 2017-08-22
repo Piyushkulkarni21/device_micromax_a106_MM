@@ -15,7 +15,7 @@ Camera  | 8MPx, LED Flash
 
 
 
-This branch is for building LineageOS 13.0 ROMs.
+This branch is for building CyanogenMod 13.0 ROMs.
 
 ## What's working
 - [x] FM Radio
