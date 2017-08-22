@@ -37,7 +37,7 @@ This branch is for building LineageOS 13.0 ROMs.
 
   * repo init -u git://github.com/LineageOS/android.git -b cm-13.0
   * repo sync
-  * git clone https://github.com/EndLess728/android_device_micromax_unite2_a106.git device/micromax/a106
+  * git clone https://github.com/rcrajarshi12/android_device_micromax_unite2_a106.git device/micromax/a106
   * git clone https://github.com/EndLess728/android_vendor_micromax_a106.git vendor/micromax/a106
   * cd device/micromax/a106/patches
   * source apply.sh 
