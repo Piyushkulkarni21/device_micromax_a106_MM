@@ -158,10 +158,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # FMRadio
 PRODUCT_PACKAGES += \
     FMRadio \
